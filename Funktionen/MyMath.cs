@@ -28,16 +28,6 @@ namespace Funktionen
             return a;
         }
 
-        public int ReadInt()
-        {
-            
-            int eingabe = -1;
-            while (eingabe <= 0)
-            {
-                Console.WriteLine("Gib eine positive ganze Zahl ein!");
-                eingabe = Convert.ToInt32(Console.ReadLine());
-            }
-            return eingabe;
-        }
+        
     }
 }
