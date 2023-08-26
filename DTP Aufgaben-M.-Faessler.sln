@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB02", "MB02\MB02.csproj", "{DC8F7655-B2AC-499E-968A-D632E26C8282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB02", "MB02\MB02.csproj", "{DC8F7655-B2AC-499E-968A-D632E26C8282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funktionen", "Funktionen\Funktionen.csproj", "{381A99B9-3CBF-4A57-B8FF-F84B45BE14BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funktionen", "Funktionen\Funktionen.csproj", "{381A99B9-3CBF-4A57-B8FF-F84B45BE14BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{EDFD1D70-EF79-4CDC-BC88-4FF07EE80588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{EDFD1D70-EF79-4CDC-BC88-4FF07EE80588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{B94645BD-4DD0-4F01-99AA-075F713DCE08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{B94645BD-4DD0-4F01-99AA-075F713DCE08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WutPerson", "WutPerson\WutPerson.csproj", "{1A3FD599-EE64-4825-BF37-9FB5FA9543F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunktionenTests", "FunktionenTests\FunktionenTests.csproj", "{D239191B-A551-48CE-B8C1-18A3BFB56121}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{B94645BD-4DD0-4F01-99AA-075F713DCE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94645BD-4DD0-4F01-99AA-075F713DCE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94645BD-4DD0-4F01-99AA-075F713DCE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3FD599-EE64-4825-BF37-9FB5FA9543F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3FD599-EE64-4825-BF37-9FB5FA9543F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3FD599-EE64-4825-BF37-9FB5FA9543F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3FD599-EE64-4825-BF37-9FB5FA9543F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D239191B-A551-48CE-B8C1-18A3BFB56121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D239191B-A551-48CE-B8C1-18A3BFB56121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D239191B-A551-48CE-B8C1-18A3BFB56121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D239191B-A551-48CE-B8C1-18A3BFB56121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

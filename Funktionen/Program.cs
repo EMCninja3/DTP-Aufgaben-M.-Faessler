@@ -6,8 +6,17 @@ namespace Funktionen
     {
         private static void Main(string[] args)
         {
+
+
             MyMath myMath = new MyMath();
+            myMath.Calc_ggT(1, 2);
+
             int a = 6; int b = 8;
+            MyMath.Swap(a, b, out a, out b);
+            Console.WriteLine($"a = {a}; b = {b}");
+
+
+
             Console.WriteLine($"kgV von {a} un {b} = {myMath.Calc_kgV(a, b)}");
 
             int eingabe = -1;
