@@ -30,7 +30,7 @@ namespace PortfolioAufgabeGeoShapes
             this.c = new Linie();
             this.c.Laenge = a.Laenge;
             this.d = new Linie();
-            this.c.Laenge = c.Laenge;
+            this.d.Laenge = b.Laenge;
         }
 
         /// <summary>
@@ -40,7 +40,7 @@ namespace PortfolioAufgabeGeoShapes
         /// <returns>Umfang als double</returns>
         public double BerechneUmfang()
         {
-            return a.Laenge + b.Laenge + c.Laenge;
+            return a.Laenge + b.Laenge + c.Laenge + d.Laenge;
         }
 
         /// <summary>

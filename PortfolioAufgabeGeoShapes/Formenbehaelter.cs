@@ -101,19 +101,20 @@ namespace PortfolioAufgabeGeoShapes
             }
         }
 
+        /// <summary>
+        /// Gibt die Informationen von allen Objekten aus.
+        /// </summary>
         public void GebeInformationenAus()
         {
             Console.WriteLine("Das ist ein Formenbehaelter.");
             Console.WriteLine($"Es besitzt {kreise.Count} Kreise.");
             kreise.ForEach(e => { e.GebeInformationenAus(); });
+            Console.WriteLine("\n\n");
             Console.WriteLine($"Es besitzt {rechtecke.Count} Rechtecke.");
             rechtecke.ForEach(e => { e.GebeInformationenAus(); });
+            Console.WriteLine("\n\n");
             Console.WriteLine($"Es besitzt {dreiecke.Count} Dreiecke.");
             dreiecke.ForEach(e => { e.GebeInformationenAus(); });
         }
-
-
-
-
     }
 }
