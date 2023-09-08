@@ -18,7 +18,8 @@ namespace PortfolioAufgabeGeoShapes
         private Linie c;
 
         /// <summary>
-        /// 
+        /// Gleichseitiges Dreieck
+        /// Diese Klasse bildet ein gleichseitiges Dreieck ab.
         /// </summary>
         /// <param name="a">Länge einer Seite</param>
         public Dreieck(Linie a) {
@@ -49,7 +50,9 @@ namespace PortfolioAufgabeGeoShapes
         {
             return Math.Pow(a.Laenge, 2) * Math.Sqrt(3.0) / 4.0;
         }
-
+        /// <summary>
+        /// Diese Methode gibt alle Eigenschaften dieses Objektes auf die Console aus.
+        /// </summary>
         public void GebeInformationenAus()
         {
             Console.WriteLine("Das ist ein Dreieck");

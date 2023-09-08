@@ -8,7 +8,7 @@ namespace PortfolioAufgabeGeoShapes
 {
     public class Kreis
     {
-        public Linie umfang;
+        private Linie umfang;
         public Kreis(Linie umfang) {
             this.umfang = umfang;
         }

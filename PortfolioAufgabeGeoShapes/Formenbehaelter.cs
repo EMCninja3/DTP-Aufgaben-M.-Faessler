@@ -13,9 +13,9 @@ namespace PortfolioAufgabeGeoShapes
     /// </summary>
     public class Formenbehaelter
     {
-        List<Rechteck> rechtecke = new List<Rechteck>();
-        List<Kreis> kreise = new List<Kreis>();
-        List<Dreieck> dreiecke = new List<Dreieck>();
+        public List<Rechteck> rechtecke = new List<Rechteck>();
+        public List<Kreis> kreise = new List<Kreis>();
+        public List<Dreieck> dreiecke = new List<Dreieck>();
 
         /// <summary>
         /// Braucht zwei Rechtecke und einen Kreis
@@ -110,9 +110,11 @@ namespace PortfolioAufgabeGeoShapes
             Console.WriteLine($"Es besitzt {kreise.Count} Kreise.");
             kreise.ForEach(e => { e.GebeInformationenAus(); });
             Console.WriteLine("\n\n");
+
             Console.WriteLine($"Es besitzt {rechtecke.Count} Rechtecke.");
             rechtecke.ForEach(e => { e.GebeInformationenAus(); });
             Console.WriteLine("\n\n");
+
             Console.WriteLine($"Es besitzt {dreiecke.Count} Dreiecke.");
             dreiecke.ForEach(e => { e.GebeInformationenAus(); });
         }
