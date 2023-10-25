@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortfolioAufgabeGeoShapes",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortfolioAufgabeGeoShapesTests", "PortfolioAufgabeGeoShapesTests\PortfolioAufgabeGeoShapesTests.csproj", "{CBE319BF-51D3-45BC-BF5C-58B33B3A5B3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randomizer", "Randomizer\Randomizer.csproj", "{5AEC0407-ED2A-4611-8487-7371D1B0A64C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randomizer", "Randomizer\Randomizer.csproj", "{5AEC0407-ED2A-4611-8487-7371D1B0A64C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatenstrukturenAlgorithmus", "DatenstrukturenAlgorithmus\DatenstrukturenAlgorithmus.csproj", "{5A2A9161-2EBE-4A9C-9F53-1FF3269E3D65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatenstrukturenAlgorithmus2", "DatenstrukturenAlgorithmus2\DatenstrukturenAlgorithmus2.csproj", "{7D8A6E46-A0B1-446C-A25A-0D0743BD77A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datenstrukturen_Queues_Lists", "Datenstrukturen_Queues_Lists\Datenstrukturen_Queues_Lists.csproj", "{12AD4FC0-3389-4B63-824D-4747B4FC600C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{5AEC0407-ED2A-4611-8487-7371D1B0A64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AEC0407-ED2A-4611-8487-7371D1B0A64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AEC0407-ED2A-4611-8487-7371D1B0A64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2A9161-2EBE-4A9C-9F53-1FF3269E3D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2A9161-2EBE-4A9C-9F53-1FF3269E3D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2A9161-2EBE-4A9C-9F53-1FF3269E3D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2A9161-2EBE-4A9C-9F53-1FF3269E3D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8A6E46-A0B1-446C-A25A-0D0743BD77A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8A6E46-A0B1-446C-A25A-0D0743BD77A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8A6E46-A0B1-446C-A25A-0D0743BD77A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8A6E46-A0B1-446C-A25A-0D0743BD77A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AD4FC0-3389-4B63-824D-4747B4FC600C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AD4FC0-3389-4B63-824D-4747B4FC600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AD4FC0-3389-4B63-824D-4747B4FC600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AD4FC0-3389-4B63-824D-4747B4FC600C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
