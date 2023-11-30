@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 
 namespace MergeSort_Portfolio_MFaessler
 {
@@ -6,9 +7,8 @@ namespace MergeSort_Portfolio_MFaessler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
             Random random = new Random();
-            int anzahlValues = 7;
+            int anzahlValues = 1500;
             int[] values = new int[anzahlValues];
             for (int i = 0; i < anzahlValues; i++)
             {
@@ -16,18 +16,27 @@ namespace MergeSort_Portfolio_MFaessler
             }
             Console.WriteLine("Unsorted ");
             PrintValues(values);
-            long time = DateTime.Now.Ticks;
-            
+            var start = DateTime.Now.TimeOfDay;
+            values = MergeSort(values);
+            var end = DateTime.Now.TimeOfDay;
             //Console.WriteLine(time);
 
-            
+
             //Console.WriteLine(" dauer" + (end - start).TotalMilliseconds);
             //Console.WriteLine(DateTime.Now.Ticks-time);
             Console.WriteLine("Sorted ");
-            //PrintValues(sortedArray);
+            PrintValues(values);
+            Console.WriteLine("Dauer = " + (end - start).TotalMilliseconds);
 
 
 
+
+
+        }
+
+        static void benchMark()
+        {
+            Random random = new Random();
             double dauer = 0;
             ArrayList d = new ArrayList();
             int anzahlWerte = 2;
@@ -38,7 +47,7 @@ namespace MergeSort_Portfolio_MFaessler
                 {
                     werte[i] = random.Next(100);
                 }
-                var start = DateTime.Now.TimeOfDay; 
+                var start = DateTime.Now.TimeOfDay;
                 var sortedArray = MergeSort(werte);
                 var end = DateTime.Now.TimeOfDay;
                 dauer = (end - start).TotalMilliseconds;
@@ -49,11 +58,10 @@ namespace MergeSort_Portfolio_MFaessler
             Console.WriteLine();
 
 
-            foreach (var i in d) {
+            foreach (var i in d)
+            {
                 Console.Write(i + ", ");
             }
-
-
         }
 
         static int[] MergeSort(int[] array)
@@ -80,6 +88,7 @@ namespace MergeSort_Portfolio_MFaessler
             leftSide = MergeSort(leftSide);
             rightSide = MergeSort(rightSide);
             array = joinArrays(leftSide, rightSide);
+            //array = joinArrays2(leftSide, rightSide);
 
             return array;
 
@@ -98,16 +107,21 @@ namespace MergeSort_Portfolio_MFaessler
                     array[index] = left[leftIndex];
                     leftIndex++;
                 }
-                else
+                else if(left[leftIndex] > right[rightIndex])
                 {
                     array[index] = right[rightIndex];
                     rightIndex++;
+                }
+                else
+                {
+                    array[index] = left[leftIndex];
+                    leftIndex++;
                 }
                 index++;
             }
             if (rightIndex == right.Length)
             {
-                for (int i = leftIndex; i < left.Length;i++)
+                for (int i = leftIndex; i < left.Length; i++)
                 {
                     array[index++] = left[i];
                 }
@@ -123,6 +137,8 @@ namespace MergeSort_Portfolio_MFaessler
 
             return array;
         }
+
+        
 
         static void PrintValues(int[] array)
         {
