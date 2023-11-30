@@ -25,7 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatenstrukturenAlgorithmus"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatenstrukturenAlgorithmus2", "DatenstrukturenAlgorithmus2\DatenstrukturenAlgorithmus2.csproj", "{7D8A6E46-A0B1-446C-A25A-0D0743BD77A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datenstrukturen_Queues_Lists", "Datenstrukturen_Queues_Lists\Datenstrukturen_Queues_Lists.csproj", "{12AD4FC0-3389-4B63-824D-4747B4FC600C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datenstrukturen_Queues_Lists", "Datenstrukturen_Queues_Lists\Datenstrukturen_Queues_Lists.csproj", "{12AD4FC0-3389-4B63-824D-4747B4FC600C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{301B0902-E320-4D55-B23E-CB1271CEAE21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datenstrukturen_Hashtable_Anwendung", "Datenstrukturen_Hashtable_Anwendung\Datenstrukturen_Hashtable_Anwendung.csproj", "{177C8488-CAA6-4E22-877D-5A6C1B299F6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datenstrukturen_Quicksort", "Datenstrukturen_Quicksort\Datenstrukturen_Quicksort.csproj", "{D476B74E-6737-49DE-8A60-9C96DEDF633A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordHashing", "PasswordHashing\PasswordHashing.csproj", "{B0E5765F-5C24-410B-A317-FD80188C4EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort_Portfolio_MFaessler", "MergeSort_Portfolio_MFaessler\MergeSort_Portfolio_MFaessler.csproj", "{7917BE98-4D25-421F-9181-CB4F1175F02B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +91,22 @@ Global
 		{12AD4FC0-3389-4B63-824D-4747B4FC600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12AD4FC0-3389-4B63-824D-4747B4FC600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12AD4FC0-3389-4B63-824D-4747B4FC600C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177C8488-CAA6-4E22-877D-5A6C1B299F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177C8488-CAA6-4E22-877D-5A6C1B299F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177C8488-CAA6-4E22-877D-5A6C1B299F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177C8488-CAA6-4E22-877D-5A6C1B299F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D476B74E-6737-49DE-8A60-9C96DEDF633A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D476B74E-6737-49DE-8A60-9C96DEDF633A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D476B74E-6737-49DE-8A60-9C96DEDF633A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D476B74E-6737-49DE-8A60-9C96DEDF633A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E5765F-5C24-410B-A317-FD80188C4EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E5765F-5C24-410B-A317-FD80188C4EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E5765F-5C24-410B-A317-FD80188C4EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E5765F-5C24-410B-A317-FD80188C4EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7917BE98-4D25-421F-9181-CB4F1175F02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7917BE98-4D25-421F-9181-CB4F1175F02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7917BE98-4D25-421F-9181-CB4F1175F02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7917BE98-4D25-421F-9181-CB4F1175F02B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
