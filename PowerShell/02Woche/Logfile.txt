@@ -2933,3 +2933,6 @@
 24.01.2024 14:11 - Info - Datei: wctF526.tmp
 24.01.2024 14:11 - Info - Datei: wctF797.tmp
 24.01.2024 14:11 - Info - Datei: wctF85E.tmp
+24.01.2024 15:43 - Info - Tu estas aqui!
+24.01.2024 15:43 - Error - Aqui estare
+24.01.2024 15:43 - Info - A donde ire sin ti
