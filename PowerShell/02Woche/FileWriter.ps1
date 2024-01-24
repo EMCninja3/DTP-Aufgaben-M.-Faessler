@@ -15,12 +15,7 @@ function Write-NumberFile {
     Add-Content -Path $LogFilePath -Value $FormattedLogMessage
 }
 
-#Write-Log -LogMessage "Tu estas aqui!" -MessageType "Info"
-
-
-# Schreibe die Dateinamen in das Logfile
-
 for (($i = 1); $i -lt 101; $i++)
 {
-    Write-Output $i
+     Write-NumberFile $i
 }
